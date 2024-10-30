@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:layout_goneMarginEnd="100dp"
+    tools:ignore="ExtraText">
+
+
+    <!-- Boton para abrir el activity de la camara  -->
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="Abrir Cámara"
+        android:textColorLink="#00BCD4" />
+    <!-- Boton para abrir el activity de la ubicacion -->
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Abrir Ubicación"
+        app:rippleColor="#BC2929" />
+
+</LinearLayout>
+

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="button_camera">Abrir Cámara</string>
+    <string name="button_location">Abrir Ubicación</string>
+    <string name="text_camera">Hola Cámara</string>
+    <string name="text_location">Hola Ubicación</string>
+</resources>
